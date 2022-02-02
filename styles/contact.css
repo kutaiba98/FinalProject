@@ -1,0 +1,51 @@
+main {
+    width: 90%;
+    height: 100vh;
+    margin: 2rem auto 0;
+}
+.sec-1 {
+background-image: url(../images/contact.webp);
+background-size: cover;
+color: #162b6f;
+text-align: center;
+}
+.sec-1 h1 {
+font-size: 50px;
+}
+.sec-1 p {
+    font-size: 30px;
+}
+section {
+    width: 50%;
+    height: 100%;
+}
+.sec-2 {
+    margin-left: 3%;
+}
+.sec-2 input,.sec-2 textarea {
+    width: 50%;
+    display: block;
+    height: 2.5rem;
+    border: none;
+    border-bottom: 2px solid #111;
+    border-left: 2px solid #111;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color: transparent;
+    
+  }
+ .sec-2 textarea {
+    resize: unset;
+     height: 10rem;
+  }
+  .sec-2 label {
+      font-size: 20px;
+      color: #111;
+  }
+ .sec-2 ::placeholder {
+     color: rgba(255, 255, 255, 0.497);
+ } 
+.sec-2 h1 {
+    color: #111;
+    font-size: 35px;
+}

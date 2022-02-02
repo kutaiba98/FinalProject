@@ -1,0 +1,38 @@
+main {
+    width: 100%;
+    height: auto;
+    color: #111;
+}
+/*************class**************/
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.main {
+background-image: url(../images/faq.webp);
+background-size: cover;
+height: 60vh;
+width: 100%;
+text-align: center;}
+.main h1 {
+    font-size: 50px;
+}
+.main p{
+font-size: 30px;
+}
+section div {
+    width: 20%;
+    height: 50%;
+    margin-top: 2%;
+}
+.row>div {
+    margin-left: 2%;
+}
+h1 {
+    font-size: 30px;
+}
+.row p {
+
+    font-size: 25px;
+}
